@@ -5,8 +5,8 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 public class ReportClass {
 
-	static ExtentReports report;
-	static ExtentTest test;
+	public 	static ExtentReports report;
+	public ExtentTest test;
 	
 	public void startTest(){
 		report=new ExtentReports("report.html");

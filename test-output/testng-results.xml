@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Logout Successfull]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55910" started-at="2021-05-05T11:26:42Z" finished-at="2021-05-05T11:27:38Z">
+  <suite name="Default suite" duration-ms="216177" started-at="2021-05-05T13:22:23Z" finished-at="2021-05-05T13:25:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55910" started-at="2021-05-05T11:26:42Z" finished-at="2021-05-05T11:27:38Z">
+    <test name="Default test" duration-ms="216177" started-at="2021-05-05T13:22:23Z" finished-at="2021-05-05T13:25:59Z">
       <class name="tests.Test">
-        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@68c4039c]" name="launch" is-config="true" duration-ms="21828" started-at="2021-05-05T16:56:42Z" finished-at="2021-05-05T16:57:04Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@7ed7259e]" name="launch" is-config="true" duration-ms="18774" started-at="2021-05-05T18:52:23Z" finished-at="2021-05-05T18:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@68c4039c]" name="A_login" duration-ms="17776" started-at="2021-05-05T16:57:04Z" finished-at="2021-05-05T16:57:22Z">
+        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@7ed7259e]" name="A_login" duration-ms="188903" started-at="2021-05-05T18:52:42Z" finished-at="2021-05-05T18:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- A_login -->
-        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@68c4039c]" name="B_checklogout" duration-ms="16028" started-at="2021-05-05T16:57:22Z" finished-at="2021-05-05T16:57:38Z">
+        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@7ed7259e]" name="B_checklogout" duration-ms="8122" started-at="2021-05-05T18:55:51Z" finished-at="2021-05-05T18:55:59Z">
           <reporter-output>
-            <line>
-              <![CDATA[Logout Successfull]]>
-            </line>
           </reporter-output>
         </test-method> <!-- B_checklogout -->
       </class> <!-- tests.Test -->

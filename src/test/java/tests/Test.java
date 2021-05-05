@@ -1,6 +1,7 @@
 package tests;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -16,31 +17,31 @@ import pages.DeveloperHomePage;
 import pages.LoginPage;
 
 public class Test extends Webdriver{
+	
 	ExcelData data=new ExcelData();
     ReportClass report=new ReportClass();
 	LoginPage lp;
 	DeveloperHomePage dh;
+	HashMap<String, String> mapData =null;
+	public  String uname,pword,browser,url;
 	
 	@BeforeTest
 	public void launch() throws IOException{
-		data.read();
-		String browser=ExcelData.browser;
-		String url=ExcelData.url;
+		mapData =data.read();
+		uname=mapData.get("username");
+		pword=mapData.get("password");
+		browser=mapData.get("browser");
+		url=mapData.get("url");
 		
-	  Webdriver.launch(browser);	
+	  launch(browser);	
 	  driver.get(url);
 	}
 	
 	@org.testng.annotations.Test
 	public void A_login() throws Exception{
 	  report.startTest();
-		data.read();
-		
-		String username=ExcelData.uname;
-		String password=ExcelData.pword;
-		
 		lp=PageFactory.initElements(driver, LoginPage.class);
-		lp.checklogin(username, password);
+		lp.checklogin(uname, pword);
 		report.test.log(LogStatus.PASS,"pass" );
 		
         report.endTest();
