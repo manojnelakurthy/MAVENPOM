@@ -5,20 +5,20 @@
       <![CDATA[Logout Successfull]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36363" started-at="2021-05-05T11:02:37Z" finished-at="2021-05-05T11:03:13Z">
+  <suite name="Default suite" duration-ms="55910" started-at="2021-05-05T11:26:42Z" finished-at="2021-05-05T11:27:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36363" started-at="2021-05-05T11:02:37Z" finished-at="2021-05-05T11:03:13Z">
+    <test name="Default test" duration-ms="55910" started-at="2021-05-05T11:26:42Z" finished-at="2021-05-05T11:27:38Z">
       <class name="tests.Test">
-        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@68c4039c]" name="launch" is-config="true" duration-ms="9468" started-at="2021-05-05T16:32:37Z" finished-at="2021-05-05T16:32:46Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@68c4039c]" name="launch" is-config="true" duration-ms="21828" started-at="2021-05-05T16:56:42Z" finished-at="2021-05-05T16:57:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@68c4039c]" name="A_login" duration-ms="12738" started-at="2021-05-05T16:32:46Z" finished-at="2021-05-05T16:32:59Z">
+        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@68c4039c]" name="A_login" duration-ms="17776" started-at="2021-05-05T16:57:04Z" finished-at="2021-05-05T16:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- A_login -->
-        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@68c4039c]" name="B_checklogout" duration-ms="14126" started-at="2021-05-05T16:32:59Z" finished-at="2021-05-05T16:33:13Z">
+        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@68c4039c]" name="B_checklogout" duration-ms="16028" started-at="2021-05-05T16:57:22Z" finished-at="2021-05-05T16:57:38Z">
           <reporter-output>
             <line>
               <![CDATA[Logout Successfull]]>
