@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="35509" started-at="2021-05-05T07:07:49Z" finished-at="2021-05-05T07:08:25Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="35509" started-at="2021-05-05T07:07:49Z" finished-at="2021-05-05T07:08:25Z">
+      <class name="tests.Test">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@42d80b78]" name="launch" is-config="true" duration-ms="16419" started-at="2021-05-05T12:37:49Z" finished-at="2021-05-05T12:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@42d80b78]" name="A_login" duration-ms="13598" started-at="2021-05-05T12:38:06Z" finished-at="2021-05-05T12:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_login -->
+        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@42d80b78]" name="B_checklogout" duration-ms="5440" started-at="2021-05-05T12:38:19Z" finished-at="2021-05-05T12:38:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- B_checklogout -->
+      </class> <!-- tests.Test -->
+    </test> <!-- Test1 -->
+  </suite> <!-- testsuite -->
+</testng-results>
