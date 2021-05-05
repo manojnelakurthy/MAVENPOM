@@ -5,20 +5,20 @@
       <![CDATA[Logout Successfull]]>
     </line>
   </reporter-output>
-  <suite name="testsuite" duration-ms="35509" started-at="2021-05-05T07:07:49Z" finished-at="2021-05-05T07:08:25Z">
+  <suite name="Default suite" duration-ms="36363" started-at="2021-05-05T11:02:37Z" finished-at="2021-05-05T11:03:13Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="35509" started-at="2021-05-05T07:07:49Z" finished-at="2021-05-05T07:08:25Z">
+    <test name="Default test" duration-ms="36363" started-at="2021-05-05T11:02:37Z" finished-at="2021-05-05T11:03:13Z">
       <class name="tests.Test">
-        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@42d80b78]" name="launch" is-config="true" duration-ms="16419" started-at="2021-05-05T12:37:49Z" finished-at="2021-05-05T12:38:06Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@68c4039c]" name="launch" is-config="true" duration-ms="9468" started-at="2021-05-05T16:32:37Z" finished-at="2021-05-05T16:32:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@42d80b78]" name="A_login" duration-ms="13598" started-at="2021-05-05T12:38:06Z" finished-at="2021-05-05T12:38:19Z">
+        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@68c4039c]" name="A_login" duration-ms="12738" started-at="2021-05-05T16:32:46Z" finished-at="2021-05-05T16:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- A_login -->
-        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@42d80b78]" name="B_checklogout" duration-ms="5440" started-at="2021-05-05T12:38:19Z" finished-at="2021-05-05T12:38:25Z">
+        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@68c4039c]" name="B_checklogout" duration-ms="14126" started-at="2021-05-05T16:32:59Z" finished-at="2021-05-05T16:33:13Z">
           <reporter-output>
             <line>
               <![CDATA[Logout Successfull]]>
@@ -26,6 +26,6 @@
           </reporter-output>
         </test-method> <!-- B_checklogout -->
       </class> <!-- tests.Test -->
-    </test> <!-- Test1 -->
-  </suite> <!-- testsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
