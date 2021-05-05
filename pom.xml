@@ -61,7 +61,7 @@
   <configuration>
   <suiteXmlFiles>
   <suiteXmlFile>
-  TestPom.xml
+  testng.xml
   </suiteXmlFile>
   </suiteXmlFiles>
   </configuration>
