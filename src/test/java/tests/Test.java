@@ -42,7 +42,7 @@ public class Test extends Webdriver{
 		lp=PageFactory.initElements(driver, LoginPage.class);
 		lp.checklogin(username, password);
 		report.test.log(LogStatus.PASS,"pass" );
-		report.test.log(LogStatus.FAIL,"fail" );
+		
         report.endTest();
 		
 	}
@@ -56,14 +56,10 @@ public class Test extends Webdriver{
 		WebElement ele=lp.checklogout();
 		Assert.assertTrue(ele.isDisplayed());
 		if(ele.isDisplayed()){
-			Reporter.log("Logout Successfull");
-		}else{
-			Reporter.log("Logout Failed");
-		}
 		report.test.log(LogStatus.PASS,"pass" );
-		report.test.log(LogStatus.FAIL,"fail" );
+		}else{
+        report.test.log(LogStatus.FAIL, "fail");
+		}
         report.endTest();
-	}
-	
-	
+}
 }
