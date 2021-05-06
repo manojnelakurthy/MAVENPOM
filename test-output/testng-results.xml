@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testsuite" duration-ms="17783" started-at="2021-05-06T06:59:00Z" finished-at="2021-05-06T06:59:18Z">
+  <suite name="Default suite" duration-ms="59414" started-at="2021-05-06T08:55:24Z" finished-at="2021-05-06T08:56:23Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="17783" started-at="2021-05-06T06:59:00Z" finished-at="2021-05-06T06:59:18Z">
+    <test name="Default test" duration-ms="59414" started-at="2021-05-06T08:55:24Z" finished-at="2021-05-06T08:56:23Z">
       <class name="tests.Test">
-        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@66a3ffec]" name="launch" is-config="true" duration-ms="8197" started-at="2021-05-06T12:29:00Z" finished-at="2021-05-06T12:29:08Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:tests.Test@59e5ddf]" name="launch" is-config="true" duration-ms="45187" started-at="2021-05-06T14:25:24Z" finished-at="2021-05-06T14:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@66a3ffec]" name="A_login" duration-ms="5483" started-at="2021-05-06T12:29:08Z" finished-at="2021-05-06T12:29:14Z">
+        <test-method status="PASS" signature="A_login()[pri:0, instance:tests.Test@59e5ddf]" name="A_login" duration-ms="9235" started-at="2021-05-06T14:26:09Z" finished-at="2021-05-06T14:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- A_login -->
-        <test-method status="PASS" signature="B_checklogout()[pri:0, instance:tests.Test@66a3ffec]" name="B_checklogout" duration-ms="4061" started-at="2021-05-06T12:29:14Z" finished-at="2021-05-06T12:29:18Z">
+        <test-method status="PASS" signature="B_logout()[pri:0, instance:tests.Test@59e5ddf]" name="B_logout" duration-ms="4953" started-at="2021-05-06T14:26:18Z" finished-at="2021-05-06T14:26:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- B_checklogout -->
+        </test-method> <!-- B_logout -->
       </class> <!-- tests.Test -->
-    </test> <!-- Test1 -->
-  </suite> <!-- testsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

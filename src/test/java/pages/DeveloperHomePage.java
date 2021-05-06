@@ -13,11 +13,11 @@ public class DeveloperHomePage extends Webdriver{
 	ExcelData data=new ExcelData();
 	HashMap<String, List<String>> mapData1 =null;
 
-public void clicklogout() throws Exception{
+public void logout() throws Exception{
 	Thread.sleep(2000);
 	mapData1=data.read1();
 	if(mapData1.get("logout").get(0).equalsIgnoreCase("id")){
-		driver.findElement(By.id(mapData1.get("logout").get(1))).click();;
+		driver.findElement(By.id(mapData1.get("logout").get(1))).click();
 	}else if(mapData1.get("logout").get(0).equalsIgnoreCase("linkText")){
 		driver.findElement(By.linkText(mapData1.get("logout").get(1))).click();;
 	}
