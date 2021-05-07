@@ -12,6 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelData {
 
 
+@SuppressWarnings("resource")
 public HashMap<String, String> read() throws IOException{
 	FileInputStream fi=new FileInputStream("E:\\WorkSpace\\MavenPOM\\XLDATA\\DATA.xlsx");
 	XSSFWorkbook wb=new XSSFWorkbook(fi);
@@ -32,9 +33,9 @@ public HashMap<String, List<String>> read1() throws IOException{
 	XSSFWorkbook wb=new XSSFWorkbook(fi);
 	Sheet s=wb.getSheet("WebElement");
 	int rowcount=s.getLastRowNum();
-	
 	HashMap<String, List<String>> data=new HashMap<String,List<String>>();
 	for(int i=0;i<=rowcount;i++){
+		
 		String key=s.getRow(i).getCell(0).getStringCellValue();
 		List<String> value=new ArrayList<String>();
 		value.add(s.getRow(i).getCell(1).getStringCellValue());

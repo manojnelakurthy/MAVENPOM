@@ -16,7 +16,7 @@ public class LoginPage extends Webdriver{
 public void login(String username,String password) throws Exception{
 	Thread.sleep(1000);
 	mapData1=data.read1();
-	
+	try{
 	if(mapData1.get("username").get(0).equalsIgnoreCase("id")){
 		driver.findElement(By.id(mapData1.get("username").get(1))).sendKeys(username);
 	}else if(mapData1.get("username").get(0).equalsIgnoreCase("linkText")){
@@ -37,6 +37,9 @@ public void login(String username,String password) throws Exception{
 		driver.findElement(By.name(mapData1.get("login").get(1))).click();
 	}else if(mapData1.get("login").get(0).equalsIgnoreCase("linkText")){
 		driver.findElement(By.linkText(mapData1.get("login").get(1))).click();;
+	}
+	}catch(Exception e){
+		
 	}
 	try{
 	driver.switchTo().alert().accept();

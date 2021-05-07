@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.Test">
         <methods>
+          <include name="B_logout"/>
           <include name="launch"/>
           <include name="A_login"/>
         </methods>
