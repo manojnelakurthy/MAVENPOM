@@ -65,6 +65,7 @@ public class Test extends Webdriver{
 		screenShot();
 		}else{
         test.log(LogStatus.FAIL, "Fail");
+        screenShot();
 		}
 
 		}
