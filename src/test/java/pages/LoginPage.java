@@ -32,7 +32,7 @@ public void login(String username,String password) throws Exception{
 	}
 	
 	if(mapData1.get("login").get(0).equalsIgnoreCase("id")){
-		driver.findElement(By.id(mapData1.get("login").get(1))).click();;
+		driver.findElement(By.id(mapData1.get("login").get(1))).click();
 	}else if(mapData1.get("login").get(0).equalsIgnoreCase("name")){
 		driver.findElement(By.name(mapData1.get("login").get(1))).click();
 	}else if(mapData1.get("login").get(0).equalsIgnoreCase("linkText")){

@@ -3,7 +3,6 @@ package tests;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
@@ -31,7 +30,6 @@ public class Test extends Webdriver{
 	LoginPage lp=new LoginPage();
 	DeveloperHomePage dh=new DeveloperHomePage();
 	HashMap<String, String> mapData =null;
-	HashMap<String, List<String>> mapData1 =null;
 	
 	public  String uname,pword,browser,url;
 
@@ -39,7 +37,6 @@ public class Test extends Webdriver{
 	public void launch() throws IOException{
 		
 		mapData =data.read();
-		mapData1=data.read1();
 		uname=mapData.get("username");
 		pword=mapData.get("password");
 		browser=mapData.get("browser");
@@ -85,7 +82,7 @@ public class Test extends Webdriver{
 			File dest=new File(".\\XLDATA\\screenshot"+random+".png");
 			FileUtils.copyFile(src, dest);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}
 		
@@ -103,6 +100,7 @@ public class Test extends Webdriver{
 		Assert.assertTrue(ele.isDisplayed());
 		if(ele.isDisplayed()){
 		test.log(LogStatus.PASS,"Pass" );
+		screenShot();
 		}else{
         test.log(LogStatus.FAIL, "Fail");
 		}
